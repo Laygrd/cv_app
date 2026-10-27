@@ -19,10 +19,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     mainColumn: {
+        flex: 1,
         flexDirection: 'column'
     },
     title: {
-        fontSize: 14
+        fontSize: 14,
+        fontWeight: 700,
     },
     secondColumn: {
         marginLeft: 'auto'

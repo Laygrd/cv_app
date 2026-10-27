@@ -11,6 +11,7 @@ import {
     ProjectsDataErrors, 
     EducationDataErrors, 
     LanguagesDataErrors,
+    SkillsDataErrors,
 } from "./resumeValidationSchema";
 
 export interface ResumeSchema {
@@ -116,7 +117,7 @@ export interface EducationData {
     id: string;
     faculty: string;
     program: string;
-    grade: 'bachelor' | 'master' | 'phd' | 'ad_fe' | 'specialist';
+    grade: 'bachelor' | 'master' | 'phd' | 'ad_fe' | 'specialist' | 'advanced';
     org: string;
     city: string;
     dateFrom: string;
@@ -136,7 +137,7 @@ export interface ValidationErrors {
     contacts: ContactsDataErrors;
     aboutMe: AboutMeDataErrors;
     objective: ObjectiveDataErrors;
-    skills?: string;
+    skills?: SkillsDataErrors;
     jobs: JobsDataErrors;
     projects: ProjectsDataErrors;
     education: EducationDataErrors;

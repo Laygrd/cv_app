@@ -16,13 +16,17 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
     },
     skill: {
+        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         border: '0.4mm solid #595959',
         borderRadius: '2.2mm',
         paddingVertical: 3,
-        paddingHorizontal: 6,
+        paddingHorizontal: 10,
         margin: 2
+    },
+    skillText: {
+
     }
 });
 
@@ -55,7 +59,7 @@ export const SkillsInfo = memo((props: SkillsInfoProps) => {
 
         return (
             <View style={styles.skill}>
-                <Text >{ `${skillRecord.displayName}` }</Text>
+                <Text style={styles.skillText}>{ skillRecord.displayName }</Text>
             </View>
         )
     }, [skillsList])

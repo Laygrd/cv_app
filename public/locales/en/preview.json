@@ -40,11 +40,12 @@
         "master": "Master",
         "ad_fe_short": "College / FE",
         "phd": "PhD",
-        "specialist": "Specialist"
+        "specialist": "Specialist",
+        "advanced": "Advanced training"
     },
     "jobInfo": {
         "dateTo_empty": "now",
-        "title": "Previous jobs"
+        "title": "Career"
     },
     "skillsInfo": {
         "title": "Skills"

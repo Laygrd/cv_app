@@ -29,16 +29,18 @@ const styles = StyleSheet.create({
         fontSize: 10
     },
     mainColumn: {
+        flex: 1,
         flexDirection: 'column'
     },
     orgName: {
-        fontSize: 14
+        fontSize: 14,
+        fontWeight: 700,
     },
 });
 
 export const EducationInfo = memo((props: EducationInfoProps) => {
     const { data } = props;
-    const { t, i18n } = useTranslation('preview', {keyPrefix: 'educationInfo'});
+    const { t } = useTranslation('preview', {keyPrefix: 'educationInfo'});
 
     const renderEduItem = (item: EducationData) => {
         return (

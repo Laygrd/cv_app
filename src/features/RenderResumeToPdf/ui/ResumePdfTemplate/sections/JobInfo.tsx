@@ -26,16 +26,22 @@ const styles = StyleSheet.create({
         fontSize: 10
     },
     mainColumn: {
+        flex: 1,
         flexDirection: 'column'
     },
     orgName: {
+        fontSize: 14,
+        fontWeight: 700,
+    },
+    position: {
+        paddingVertical: 6,
         fontSize: 14
     }
 });
 
 export const JobInfo = memo((props: JobInfoProps) => {
     const { data } = props;
-    const { t, i18n } = useTranslation('preview', {keyPrefix: 'jobInfo'});
+    const { t } = useTranslation('preview', {keyPrefix: 'jobInfo'});
 
     const renderJobItem = (item: JobData) => {
         return (
@@ -47,8 +53,8 @@ export const JobInfo = memo((props: JobInfoProps) => {
                 </View>
                 <View style={styles.mainColumn}>
                     <Text style={styles.orgName}>{ `${item.company}, ${item.location}` }</Text>
-                    <Text>{ item.position }</Text>
-                    {item.comment && <Text>{ item.comment }</Text>}
+                    <Text style={styles.position}>{ item.position }</Text>
+                    {item.comment && <Text >{ item.comment }</Text>}
                 </View>
             </View>
         )

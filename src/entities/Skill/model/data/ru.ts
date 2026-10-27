@@ -3,7 +3,7 @@ import { SkillData } from "../types/skills";
 export const skillsRu: SkillData[] = [
     {"id": "html5", "displayName": "HTML5", "category": "frontend"},
     {"id": "semantic_html", "displayName": "Семантический HTML", "category": "frontend"},
-    {"id": "css3", "displayName": "CSS3", "category": "frontend"},
+    {"id": "css3", "displayName": "СSS3", "category": "frontend"},
     {"id": "sass_scss", "displayName": "Sass / SCSS", "category": "frontend"},
     {"id": "css_modules", "displayName": "CSS Modules", "category": "frontend"},
     {"id": "styled_components", "displayName": "Styled Components / Emotion", "category": "frontend"},
@@ -72,7 +72,7 @@ export const skillsRu: SkillData[] = [
     {"id": "image_optimization", "displayName": "Оптимизация изображений", "category": "frontend"},
     {"id": "rendering_strategies", "displayName": "CSR / SSR / SSG / ISR", "category": "frontend"},
 
-    {"id": "testing_frontend", "displayName": "Тестирование frontend (Jest, React Testing Library, Cypress)", "category": "frontend"},
+    {"id": "testing_frontend", "displayName": "Тестирование frontend (Jest, React Testing Library, Сypress)", "category": "frontend"},
     {"id": "unit_testing", "displayName": "Unit-тестирование", "category": "frontend"},
     {"id": "integration_testing", "displayName": "Интеграционное тестирование", "category": "frontend"},
     {"id": "e2e_testing", "displayName": "End-to-end тестирование", "category": "frontend"},
@@ -418,7 +418,7 @@ export const skillsRu: SkillData[] = [
     { "id": "accessibility_testing", "displayName": "Тестирование доступности (a11y)", "category": "qa" },
     { "id": "client_side_validation_test", "displayName": "Проверка клиентской валидации", "category": "qa" },
 
-    { "id": "api_testing", "displayName": "Тестирование API", "category": "qa" },
+    { "id": "api_testing", "displayName": "Тестирование АPI", "category": "qa" },
     { "id": "rest_api_test", "displayName": "Тестирование REST API", "category": "qa" },
     { "id": "graphql_api", "displayName": "Тестирование GraphQL API", "category": "qa" },
     { "id": "postman", "displayName": "Postman", "category": "qa" },
@@ -432,7 +432,7 @@ export const skillsRu: SkillData[] = [
     { "id": "test_automation", "displayName": "Автоматизация тестирования", "category": "qa" },
     
     { "id": "playwright", "displayName": "Playwright", "category": "qa" },
-    { "id": "cypress", "displayName": "Cypress", "category": "qa" },
+    { "id": "cypress", "displayName": " Сypress", "category": "qa" },
     { "id": "selenium", "displayName": "Selenium", "category": "qa" },
     { "id": "jest", "displayName": "Jest", "category": "qa" },
     { "id": "vitest", "displayName": "Vitest", "category": "qa" },

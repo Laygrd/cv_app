@@ -5,4 +5,5 @@ export const gradeOptions = [
     {displayName: 'EducationEditor.GradeSelect.gradeOptions.phd', value: 'phd'},
     {displayName: 'EducationEditor.GradeSelect.gradeOptions.specialist', value: 'specialist'},
     {displayName: 'EducationEditor.GradeSelect.gradeOptions.ad_fe', value: 'ad_fe'},
+    {displayName: 'EducationEditor.GradeSelect.gradeOptions.advanced', value: 'advanced'},
 ]

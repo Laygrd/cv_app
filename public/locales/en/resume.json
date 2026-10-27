@@ -107,7 +107,8 @@
                 "master": "Master",
                 "ad_fe": "College / Further Education",
                 "phd": "PhD",
-                "specialist": "Specialist"
+                "specialist": "Specialist",
+                "advanced": "Advanced trainig"
             }
         }
     },

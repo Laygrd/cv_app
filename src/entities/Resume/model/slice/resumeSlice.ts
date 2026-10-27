@@ -77,6 +77,7 @@ const initialState: ResumeSchema = {
             contacts: {},
             aboutMe: {},
             objective: {},
+            //@ts-ignore
             skills: {},
             jobs: {},
             projects: {},
